@@ -1,0 +1,40 @@
+/* body{
+     /* background-image: url(skate2.jpg); */
+     /* background-repeat: no-repeat; }*/
+
+
+table { 
+     border-collapse: collapse;    
+     width: 100%;
+     margin: bottom 20px;/*px=pixel --- this will create space below the table*/
+     margin: top 20px;/*px=pixel --- this will create space above the table*/
+     border-spacing: 5px;/*space between borbers*/
+}
+
+
+
+th{
+     background-color: aqua;
+     color: aquamarine;/*text color*/
+}
+
+
+th,td{
+     border: 1px solid;
+     padding: 12px;/*space between content and cell borders*/ 
+     text-align: left;
+}
+
+tbody tr:hover{
+     background-color: rgb(133, 248, 133);
+}
+
+tbody tr:nth-child(odd){
+     background-color: rgb(241, 172, 75);
+}
+
+}
+
+th:nth-child(odd),td:nth-child(odd){
+     background-color: rgba(197, 228, 22, 0.828);
+}
