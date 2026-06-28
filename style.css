@@ -1,11 +1,17 @@
- /* body{ 
-      background-image: url(skate2.jpg); 
-       background-repeat: repeat;  
-} */
+body{ 
+     /* background-image: url(skate2.jpg);  */
+     /* background-repeat: repeat;   */
+     justify-content: center;
+     align-items: center;
+     /* display: flex;
+     flex-direction: column; */
+} 
 
-table { 
+ table {  
      border-collapse: collapse;    
-     width: 100%;
+     width: 50%; 
+     margin-left: 40px;
+     margin-right: 40px;
      margin: bottom 20px;/*px=pixel --- this will create space below the table*/
      margin: top 20px;/*px=pixel --- this will create space above the table*/
      border-spacing: 5px;/*space between borbers*/
@@ -105,13 +111,24 @@ header nav ul li {
      margin: 0 15px;
 }
 
+.form-wrapper{
+     display: flex; 
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     padding: 40px 20px;
+}
 .fm {
      background: #42c1cd;
      padding: 50px;
      border-radius: 20px; ;
-     width: 100%;
+     width: 50%;
      box-shadow: 0 20px 40px rgb(0, 0, 0);
      max-width: 200px;
+     box-sizing: border-box;
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
 }
 button{
      padding: 11px;
